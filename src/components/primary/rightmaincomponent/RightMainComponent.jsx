@@ -1,11 +1,12 @@
 import React from 'react';
 import "./rightmaincomponent.css";
-import SectionTitle from '../../secondary/sectiontitle/SectionTitle';
+import { SectionTitle, JobTitle } from '../../secondary/exports';
 
 const RightMainComponent = () => {
     return (
         <div className='right'>
             <SectionTitle content="experience1" />
+            <JobTitle />
         </div>
     )
 }
