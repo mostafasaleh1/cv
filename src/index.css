@@ -15,6 +15,7 @@ body {
 }
 
 :root {
-  --text-color: #23272e;
-  --main-color: #172b4d;
+  --text-color: #2a363b;
+  --main-color: #c3195d;
+  --company-color: #f70776;
 }
