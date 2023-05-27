@@ -10,3 +10,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --text-color: #23272e;
+  --main-color: #172b4d;
+}
