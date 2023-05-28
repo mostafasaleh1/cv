@@ -1,6 +1,6 @@
 .date-and-location {
     display: flex;
-    font-size: 0.81rem;
+    font-size: 0.75rem;
     color: var(--light-text-color);
     gap: 2rem;
 }

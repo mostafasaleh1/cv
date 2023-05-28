@@ -1,12 +1,12 @@
 .bullet-point {
-    position: relative;
-    font-size: 0.8rem;
+    display: flex;
+    font-size: 0.85rem;
     color: var(--light-text-color);
     line-height: 100%;
     margin-top: 3px;
+    width: 100%;
 }
 
-.bullet-point span {
-    position: absolute;
-    left: 11px;
+.point-svg {
+    color: var(--light-text-color);
 }

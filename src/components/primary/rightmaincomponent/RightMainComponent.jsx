@@ -4,8 +4,8 @@ import { SectionTitle, JobTitle, InstitutionName, DateAndLocation, BulletPoint }
 
 const RightMainComponent = () => (
     <div className='right'>
+        <SectionTitle content="experience1" />
         <div className='content-box'>
-            <SectionTitle content="experience1" />
             <JobTitle content="Software Develper" />
             <InstitutionName content="Yahoo" />
             <DateAndLocation date="33/5/2021 - 2022" location="Location" />

@@ -4,7 +4,6 @@
   box-sizing: border-box;
   border: none;
   outline: none;
-  list-style-position: inside;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -28,5 +27,14 @@ body {
   flex-direction: column;
   gap: 1px;
   border-bottom: 2px dashed var(--separator-color);
-  padding-bottom: 1rem;
+  padding-bottom: 0.6rem;
+  padding-top: 0.6rem;
+}
+
+.content-box:last-child {
+  border: none;
+}
+
+svg {
+  color: var(--main-color);
 }
