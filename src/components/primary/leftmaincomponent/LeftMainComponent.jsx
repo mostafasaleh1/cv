@@ -5,7 +5,6 @@ import { SectionTitle, JobTitle, InstitutionName, DateAndLocation, BulletPoint }
 const LeftMainComponent = () => (
     <div className='left'>
         <SectionTitle content="experience" />
-
         <div className='content-box'>
             <JobTitle content="React Developer" />
             <InstitutionName content="Google" />
