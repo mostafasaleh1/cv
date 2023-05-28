@@ -4,7 +4,7 @@
   box-sizing: border-box;
   border: none;
   outline: none;
-  list-style: none;
+  list-style-position: inside;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,8 +12,10 @@
 
 :root {
   --text-color: #2a363b;
+  --light-text-color: #2a363bd7;
   --main-color: #c3195d;
   --company-color: #f70776;
+  --separator-color: #2a363b2f;
 }
 
 body {
@@ -24,5 +26,7 @@ body {
 .content-box {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 1px;
+  border-bottom: 2px dashed var(--separator-color);
+  padding-bottom: 1rem;
 }

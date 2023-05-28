@@ -2,7 +2,3 @@
     display: grid;
     grid-template-columns: 60% 40%;
 }
-
-.container div {
-    margin-right: 7.5%;
-}

@@ -9,5 +9,6 @@ a div {
     display: flex;
     flex-wrap: wrap;
     column-gap: 2rem;
-    margin-top: 0.5rem;
+    font-size: .9rem;
+    padding: 0.5rem 0 .5rem 0;
 }

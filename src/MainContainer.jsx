@@ -6,12 +6,8 @@ import "./maincontainer.css";
 const container = () => {
     return (
         <div className="container">
-            <div>
-                <RightMainComponent />
-            </div>
-            <div>
-                <LeftMainComponent />
-            </div>
+            <LeftMainComponent />
+            <RightMainComponent />
         </div>
     );
 };
