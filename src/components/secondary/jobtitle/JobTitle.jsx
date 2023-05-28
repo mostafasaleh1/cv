@@ -1,10 +1,9 @@
 import React from 'react';
 import "./jobtitle.css";
 
-const JobTitle = () => {
-    return (
-        <div>JobTitle</div>
-    )
-}
-
+const JobTitle = ({ content }) => (
+    <span className="job-title">
+        {content}
+    </span>
+);
 export default JobTitle;

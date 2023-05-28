@@ -1,10 +1,10 @@
 import React from 'react';
 import "./institutionname.css";
 
-const InstitutionName = () => {
-    return (
-        <span>Institution Name</span>
-    )
-}
+const InstitutionName = ({ content }) => (
+    <h5 className='institution-name'>
+        {content}
+    </h5>
+);
 
 export default InstitutionName;

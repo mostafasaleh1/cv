@@ -10,12 +10,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
-}
-
 :root {
   --text-color: #2a363b;
   --main-color: #c3195d;
   --company-color: #f70776;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }

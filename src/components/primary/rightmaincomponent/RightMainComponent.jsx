@@ -1,14 +1,16 @@
 import React from 'react';
 import "./rightmaincomponent.css";
-import { SectionTitle, JobTitle } from '../../secondary/exports';
+import { SectionTitle, JobTitle, InstitutionName, DateAndLocation } from '../../secondary/exports';
 
-const RightMainComponent = () => {
-    return (
-        <div className='right'>
+const RightMainComponent = () => (
+    <div className='right'>
+        <div className='content-box'>
             <SectionTitle content="experience1" />
-            <JobTitle />
+            <JobTitle content="Software Develper" />
+            <InstitutionName content="Yahoo" />
+            <DateAndLocation date="33/5/2021 - 2022" location="Location" />
         </div>
-    )
-}
+    </div>
+);
 
 export default RightMainComponent;
