@@ -7,21 +7,20 @@ const RightMainComponent = () => (
         <SectionTitle content="Education" />
         <div className='content-box'>
             <JobTitle content="Software Develper" />
-            <InstitutionName content="Yahoo" />
-            <DateAndLocation date="33/5/2021 - 2022" location="Location" />
-            <BulletPoint content="adkjfhdaskfjhsadlkfjshadlkf hsdfjkah kasjdhf kah" />
-        </div>
-
-        <div className='content-box'>
-            <JobTitle content="Software Develper" />
-            <InstitutionName content="Yahoo" />
-            <DateAndLocation date="33/5/2021 - 2022" location="Location" />
-            <BulletPoint content="adkjfhdaskfjhsadlkfjshadlkf hsdfjkah kasjdhf kah" />
+            <InstitutionName content="Higher Institute of Engineering and Technology - Kafr ELsheikh" />
+            <DateAndLocation date="Sep 2018 - Jul 2023" location="Kafr Elsheikh" />
+            <BulletPoint content="Bachelor of Engineering - Computer and Control Engineering" />
         </div>
 
         <div className='content-box'>
             <SectionTitle content="Skills" />
             <Skills />
+        </div>
+
+        <div className='content-box'>
+            <SectionTitle content="Courses" />
+            <BulletPoint content="Front End Web Development Professional Nanodegree" />
+            <BulletPoint content="Introduction to Git and GitHub" />
         </div>
     </div>
 );
