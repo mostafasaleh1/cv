@@ -10,31 +10,38 @@
 }
 
 :root {
-  --text-color: #2a363b;
-  --light-text-color: #2a363bd7;
-  --main-color: #1a46a0;
-  --company-color: #548dff;
-  --separator-color: #2a363b2f;
+  --cv-text-color: #2a363b;
+  --cv-light-text-color: #2a363bd7;
+  --cv-main-color: #1a46a0;
+  --cv-company-color: #548dff;
+  --cv-separator-color: #2a363b2f;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  color: var(--text-color);
+
+  color: var(--cv-text-color);
 }
 
-.content-box {
+#root {
+  font-family: 'Poppins', sans-serif;
+  width: 793px;
+  height: 1122px;
+  margin: 0 auto 0 auto;
+}
+
+.cv-content-box {
   display: flex;
   flex-direction: column;
   gap: 1px;
-  border-bottom: 2px dashed var(--separator-color);
+  border-bottom: 2px dashed var(--cv-separator-color);
   padding-bottom: 0.6rem;
   padding-top: 0.6rem;
 }
 
-.content-box:last-child {
+.cv-content-box:last-child {
   border: none;
 }
 
-svg {
-  color: var(--main-color);
+.cv-container svg, .cv-header svg {
+  color: var(--cv-main-color);
 }

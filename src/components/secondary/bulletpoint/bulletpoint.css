@@ -1,12 +1,12 @@
-.bullet-point {
+.cv-bullet-point {
     display: flex;
-    font-size: 0.85rem;
-    color: var(--light-text-color);
+    font-size: 85%;
+    color: var(--cv-light-text-color);
     line-height: 100%;
     margin-top: 3px;
     width: 100%;
 }
 
-.point-svg {
-    color: var(--light-text-color);
+.cv-point-svg {
+    color: var(--cv-light-text-color);
 }

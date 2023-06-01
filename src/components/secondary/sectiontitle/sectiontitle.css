@@ -1,5 +1,5 @@
-.section-title {
-    border-bottom: 3px solid var(--main-color);
+.cv-section-title {
+    border-bottom: 3px solid var(--cv-main-color);
     text-transform: uppercase;
     font-weight: 600;
 }

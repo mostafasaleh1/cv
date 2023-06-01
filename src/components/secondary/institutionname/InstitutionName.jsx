@@ -2,7 +2,7 @@ import React from 'react';
 import "./institutionname.css";
 
 const InstitutionName = ({ content }) => (
-    <h5 className='institution-name'>
+    <h5 className='cv-institution-name'>
         {content}
     </h5>
 );

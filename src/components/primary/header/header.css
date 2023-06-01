@@ -1,23 +1,23 @@
-a div {
+.cv-header a div {
     display: flex;
     align-items: center;
     gap: 5px;
-    color: var(--text-color);
+    color: var(--cv-text-color);
 }
 
-.links {
+.cv-header .links {
     display: flex;
     flex-wrap: wrap;
     column-gap: 1.5rem;
-    font-size: .85rem;
+    font-size: 85%;
     padding: 0.2rem 0 0.2rem 0;
 }
 
-header h1 {
-    font-size: 2.5rem;
+#cv-myname {
+    font-size: 250%;
     line-height: 100%;
 }
 
-header h3 {
-    font-size: 1.5rem;
+#cv-myjob {
+    font-size: 150%;
 }

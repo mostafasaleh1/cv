@@ -5,7 +5,7 @@ import "./maincontainer.css";
 
 const container = () => {
     return (
-        <div className="container">
+        <div className="cv-container">
             <LeftMainComponent />
             <RightMainComponent />
         </div>

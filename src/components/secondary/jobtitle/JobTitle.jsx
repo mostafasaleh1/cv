@@ -2,7 +2,7 @@ import React from 'react';
 import "./jobtitle.css";
 
 const JobTitle = ({ content }) => (
-    <span className="job-title">
+    <span className="cv-job-title">
         {content}
     </span>
 );

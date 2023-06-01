@@ -1,11 +1,11 @@
 import React from 'react';
 import "./leftmaincomponent.css";
-import { SectionTitle, JobTitle, InstitutionName, DateAndLocation, BulletPoint } from "../../secondary/exports";
+import { SectionTitle, JobTitle, InstitutionName, DateAndLocation, BulletPoint } from "../../secondary/Exports";
 
 const LeftMainComponent = () => (
-    <div className='left'>
+    <div className='cv-left'>
         <SectionTitle content="experience" />
-        <div className='content-box'>
+        <div className='cv-content-box'>
             <JobTitle content="React Developer" />
             <InstitutionName content="Google" />
             <DateAndLocation date="30/5" location="Location1" />
@@ -15,7 +15,7 @@ const LeftMainComponent = () => (
             <BulletPoint content="adkjfhdaskfjhsadlkfjshadlkf hsdfjkah kasjdhf kah" />
         </div>
 
-        <div className='content-box'>
+        <div className='cv-content-box'>
             <SectionTitle content="projects" />
             <JobTitle content="React Developer" />
             <InstitutionName content="Google" />
@@ -24,7 +24,7 @@ const LeftMainComponent = () => (
             <BulletPoint content="adkjfhdaskfjhsadlkfjshadlkf hsdfjkah kasjdhf kah" />
         </div>
 
-        <div className='content-box'>
+        <div className='cv-content-box'>
             <JobTitle content="React Developer" />
             <InstitutionName content="Google" />
             <DateAndLocation date="30/5" location="Location1" />
@@ -32,7 +32,7 @@ const LeftMainComponent = () => (
             <BulletPoint content="adkjfhdaskfjhsadlkfjshadlkf hsdfjkah kasjdhf kah" />
         </div>
 
-        <div className='content-box'>
+        <div className='cv-content-box'>
             <JobTitle content="React Developer" />
             <InstitutionName content="Google" />
             <DateAndLocation date="30/5" location="Location1" />
@@ -40,14 +40,14 @@ const LeftMainComponent = () => (
             <BulletPoint content="adkjfhdaskfjhsadlkfjshadlkf hsdfjkah kasjdhf kah" />
         </div>
 
-        <div className='content-box'>
+        <div className='cv-content-box'>
             <JobTitle content="React Developer" />
             <InstitutionName content="Google" />
             <DateAndLocation date="30/5" location="Location1" />
             <BulletPoint content="adkjfhdaskfjhsadlkfjshadlkf hsdfjkah kasjdhf kah" />
         </div>
 
-        <div className='content-box'>
+        <div className='cv-content-box'>
             <JobTitle content="React Developer" />
             <InstitutionName content="Google" />
             <DateAndLocation date="30/5" location="Location1" />

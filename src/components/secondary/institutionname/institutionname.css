@@ -1,4 +1,3 @@
-.institution-name {
-    color: var(--company-color);
-    font-size: .85rem;
+.cv-institution-name {
+    color: var(--cv-company-color);
 }

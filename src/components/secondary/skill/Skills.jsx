@@ -1,19 +1,13 @@
 import React from 'react';
 import "./skills.css";
 
-const Skills = () => {
-    const skills = [
-        "React",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Redux",
-        "CCNA"
-    ];
+const Skills = ({ content }) => {
+
+    const skills = content.split(", ");
 
     return (
-        <div className='skills-container'>
-            {skills.map(skill => <div className='skill'>{skill}</div>)}
+        <div className='cv-skills-container'>
+            {skills.map(skill => <div className='cv-skill'>{skill}</div>)}
         </div>
     )
 }

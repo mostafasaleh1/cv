@@ -6,10 +6,10 @@ import { GrMail } from "react-icons/gr";
 
 const Header = () => {
     return (
-        <header>
+        <header className='cv-header'>
             <div>
-                <h1>Mostafa Saleh</h1>
-                <h3>Software Engineer</h3>
+                <h1 id='cv-myname'>Mostafa Saleh</h1>
+                <h3 id='cv-myjob'>Software Engineer</h3>
             </div>
             <div className='links'>
                 <Link to="mailto:most.saleh@hotmail.com" target='_blank' rel='noreferrer'><div><GrMail /> most.saleh@hotmail.com</div></Link>
