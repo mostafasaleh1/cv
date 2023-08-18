@@ -5,7 +5,7 @@ import "./skill.css";
 const Skill = ({ content, containsLink, link }) => {
     if (containsLink === true) {
         return (
-            <Link className='skills-inner-link' to={link}>
+            <Link className='cv-skills-inner-link' to={link}>
                 <div className='cv-skill'>{content}</div>
             </Link>
         )
